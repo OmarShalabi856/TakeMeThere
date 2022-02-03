@@ -1,0 +1,299 @@
+* {
+  font-family: system-ui;
+}
+
+.up {
+  display: table;
+  width: 100%;
+  height: 55px;
+  background-image: linear-gradient(to right, rgb(18, 126, 168), rgb(18, 126, 168), rgb(10, 73, 73));
+  left: 0px;
+  min-width: 100%;
+  top: 0px;
+  margin: 0px;
+  position: fixed;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  z-index: 1;
+}
+
+.dropbtn {
+  background-color: rgb(18, 126, 168);
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  border: none;
+  margin-left: 5px;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(18, 126, 168);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: none;
+  color: white;
+}
+
+.dropdown-content a {
+
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: none;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+  color: rgb(18, 126, 168);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  ;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(18, 126, 168);
+  border: solid white 1px;
+  border-radius: 10px;
+
+}
+
+#box {
+  border: solid white 1px;
+  border-radius: 10px;
+}
+
+#logo {
+  height: 110px;
+  margin-top: 10px;
+
+}
+
+.table1 {
+  margin-top: -110px;
+  width: 80%;
+  margin-left: 250px;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+
+.cell1 {
+  display: table-cell;
+  width: 650px;
+  color: white;
+  font-size: 26px;
+  margin-left: 10px;
+}
+
+#UL1 {
+  margin-left: 100px;
+  list-style-type: none;
+  float: right;
+
+}
+
+.A1 {
+
+  margin-left: 20px;
+  background-color: #1daaaadc;
+  color: white;
+  font-weight: 700;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 6px;
+  text-decoration: none;
+
+}
+
+.A1:hover {
+  background-color: white;
+  color: #1daaaadc;
+  border: 1px solid #1daaaadc;
+}
+
+.table2 {
+  position: fixed;
+}
+
+#UL2 {
+  float: left;
+  margin-right: 10px;
+  margin-top: -8px;
+}
+
+#UL2:not(:last-child),
+#UL1 {
+  display: flex;
+  list-style-type: none;
+}
+
+.LI2 {
+  margin-top: 25px;
+}
+
+.A2 {
+  color: white;
+  text-decoration: none;
+  margin: 12px;
+  font-weight: 700;
+}
+
+.A2:hover {
+  border-bottom: 1px solid white;
+}
+
+#america {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.search:active {
+  border: none;
+}
+
+input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+
+  margin-right: -970px;
+  font-size: 15px;
+
+  border-radius: 10px;
+  margin-top: 18px;
+}
+
+.air {
+  height: 40px;
+  margin-left: 660px;
+  margin-bottom: -37px;
+}
+
+#all {
+  margin-top: 160px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  height: 30px;
+}
+
+.UL3 {
+  float: left;
+  display: inline;
+  list-style-type: none;
+
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  bottom: 0px;
+  background-image: linear-gradient(to right, rgb(18, 126, 168), rgb(18, 126, 168), rgb(10, 73, 73));
+  left: 0px;
+  position: static;
+  margin-top: 90px;
+  position: static;
+}
+
+.f {
+
+  display: inline;
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+
+}
+
+.A2 {
+  color: white;
+  text-decoration: none;
+  margin: 12px;
+  font-weight: 700;
+}
+
+.A2:hover {
+
+  border-bottom: 1px solid white;
+}
+
+.lastLinks:hover {
+  box-shadow: 5px 5px 5px 5px grey;
+  border-radius: 5px;
+}
+
+.lastLinks {
+  margin-top: 150px;
+}
+
+#lastSec {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  height: 395px;
+}
+
+#sec1 {
+
+  /* background-image: linear-gradient(to right, rgb(176, 194, 192), rgb(186, 223, 210)); */
+  margin-top: -5px;
+  border-radius: 10px;
+  border: 2px solid #27bbbbdc;
+}
+
+#sec2 {
+
+  /* background-image: linear-gradient(to right, rgb(176, 194, 192), rgb(186, 223, 210)); */
+  border: 1px solid #27bbbbdc;
+  margin-top: -5px;
+  border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #27bbbbdc;
+}
+
+#sec3 {
+
+
+  border: 2px solid #27bbbbdc;
+  border-radius: 10px;
+  border: 2px solid #27bbbbdc;
+  margin-top: -5px;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 200px;
+}
+
+.h1 {
+  margin-top: 200px;
+  text-align: center;
+  color: #27bbbbdc;
+}
+
+p {
+  border: solid #27bbbbdc 2px;
+  font-size: large;
+  border-radius: 10px;
+  color: #27bbbbdc;
+  font-weight: bold;
+}

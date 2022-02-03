@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TakeMeThere</title>
+    <link rel="stylesheet" href="Survey.css"/> 
+    <script src="Survey.js"></script>
+  </head>
+  <body>
+  <header>
+    <div class="up">
+      <img src="Web Logo.png" id="logo" >
+     
+      <nav>
+        <table cellspacing=10 class="table1" cellpadding=4>
+          <tr>
+            <th class="cell1"><span id="h1">Your Next Destination Is One Click Away!</span></th>
+            <th class="cell2"><ul id="UL1">
+            <li class="LI1"><a class="A1" href="../../LoginSignup/login.html">Login</a></li>
+              <li class="LI1"><a class="A1" href="../../LoginSignup/signup.html">SignUp</a></li>
+          </ul></th>
+        </tr>  
+      </nav>
+    </div>
+    <table class="table 2">
+      <ul id="UL2">
+        <li class="LI2"><a class="A2" href="../HomePage/project.html" >Home</a></li>
+        <div class="dropdown">
+          <button class="dropbtn"><b>Asia</b></button>
+          <div class="dropdown-content">
+            <a href=" ../Asia/India/India.html">India</a>
+            <a href=" ../Asia/Malaysia/malaysia.html">Malaysia</a>
+            <a href=" ../Asia/Philipines/philipines.html">Philipines</a>
+            <a href=" ../Asia/Turkey/turkey.html">Turkey</a>
+            <a href=" ../Asia/UAE/UAE.html">UAE</a>
+            <a href=" ../Asia/Mongolia/Mongolia.html">Mongolia</a>
+            <a href=" ../Asia/Russia/Russia.html">Russia</a>
+            </div>
+            </div>
+        <div class="dropdown">
+          <button class="dropbtn"><b>Europe</b></button>
+          <div class="dropdown-content">
+            <a href=" ../../Europe/France/france.html">France</a>
+            <a href=" ../../Europe/Germany/germany.html">Germany</a>
+            <a href=" ../../Europe/Greece/greece.html">Greece</a>
+            <a href=" ../../Europe/Italy/italy.html">Italy</a>
+            <a href=" ../../Europe/Spain/spain.html">Spain</a>
+            <a href=" ../../Europe/Norway/norway.html">Norway</a>
+            <a href=" ../../Europe/Sweden/sweden.html">Sweden</a>
+            <a href=" ../../Europe/Switzerland/Switzerland.html">Switzerland</a>
+            </div>
+            </div>
+        <div class="dropdown">
+          <button class="dropbtn"><b>Africa</b></button>
+          <div class="dropdown-content">
+            <a href=" ../Africa/Egypt/Egypt.html">Egypt</a>
+            <a href=" ../Africa/Ethiopia/Ethiopia.html">Ethiopia</a>
+            <a href=" ../Africa/Madagascar/Madagascar.html">Madagascar</a>
+            <a href=" ../Africa/Morocco/Morocco.html">Morocco</a>
+            <a href=" ../Africa/South Africa/South Africa.html">South Africa</a>
+            </div>
+            </div>
+            
+        <div class="dropdown">
+          <button class="dropbtn" ><b>America</b></button>
+            <div class="dropdown-content">
+              <a href=" ../America/USA/USA.html" >USA</a>
+              <a href=" ../America/Costa Rica/Costa Rica.html">Costa Rica</a>
+              <a href=" ../America/Nicaragua/Nicaragua.html">Nicaragua</a>
+              <a href=" ../America/Panama/panama.html">Panama</a>
+              <a href=" ../America/Guatemala/Guatemala.html">Guatemala</a>
+              <a href=" ../America/Columbia/colombia.html">Columbia</a>
+              <a href=" ../America/Brazil/brazil.html">Brazil</a>
+              </div>
+              </div>
+        <li id="search"><label for=""> <input type="text" id="searchbar" placeholder="Search.." size="32" height="4"></label></li>
+        <li > <img src="air.png" class="air" alt="" ></li>
+      </ul> 
+    </table>
+    </div>
+  </header>
+  <h1 style="margin-top: 170px; color: rgb(26, 125, 165);">Welcome To TakeMeThere Survey!</h1>
+<br>
+  <p style="font-size: 22px;font-weight: 800; border:1px solid rgb(18, 126, 168); padding: 2px; border-radius: 10px; margin-top: -15px; margin-bottom: 75px;">Answer the following questions to help you choose one country. You will be redirected to the page of the chosen destination <br>
+  <span style="font-size: 14px;">Note: Use CTRL+R to clear your choices</span></p>
+  
+
+  <form action="">
+<div class="Question1">
+<span style="font-size: 22px; font-weight: 600;">What would you prefer the weather to be like?</span> <br> <br>
+<br>
+<input type="radio" value="A" name="weather" id="w1">
+<label for="w1">Cold</label>
+<input type="radio"  value="B" name="weather" id="w2">
+<label for="w2" style="margin-left: 50px;">Moderate</label>
+<input type="radio" value="C" name="weather" id="w3">
+<label for="w3" style="margin-left: 50px;">Hot&nbsp;</label>
+</div>
+<br>
+<hr>
+<div class="Question2">
+  <span style="font-size: 22px; font-weight: 600;">How much money are you planning to spend per day (1 person)?</span> <br> <br>
+  <br>
+  <input type="radio" value="A" name="money" id="m1">
+  <label for="m1">50$ or less</label>
+  <input type="radio"  value="B" name="money" id="m2">
+  <label for="m2" style="margin-left: 50px;">50$-100$</label>
+  <input type="radio" value="C" name="money" id="m3">
+  <label for="m3" style="margin-left: 50px;">More than 100$&nbsp;</label>
+  </div>
+  <br>
+  <hr>
+  <div class="Question3">
+    <span style="font-size: 22px; font-weight: 600;">What is the purpose of this trip?</span> <br> <br>
+    <br>
+    <input type="radio" value="A" name="purpose" id="t1">
+    <label for="t1">Honeymoon</label>
+    <input type="radio"  value="B" name="purpose" id="t2">
+    <label for="t2" style="margin-left: 50px;">Family/Single Vacation</label>
+    <input type="radio" value="C" name="purpose" id="t3">
+    <label for="t3" style="margin-left: 50px;">Group Trip&nbsp;</label>
+    </div>
+<br>
+<hr>
+    <div id="SurveySubmit"> <input type="button" name="" value="Submit" id=""  onclick="check()" style="margin-top: 20px; background-color: rgb(18, 126, 168); color: white; padding: 2px; width: 90px; height: 40px; border-radius: 10px; font-size: 14px; font-weight: 600;" > </div>
+  </form>
+  <footer>
+   <ul class="UL3">
+        <li class="f"><a class="A2" href="../About Us/about us.html"><b>About us</a></b></li>
+        <li class="f"><a class="A2" href="../Contact Us/contact us.html"><b>Contact us</b></a></li>
+        <li class="f"><a class="A2" href="../Review/review.html"><b>Review</a></b></li>
+        <li class="f"><b>2021 &copy;</b></li>
+
+  </ul>
+</footer>
+
+</body>
+</html>

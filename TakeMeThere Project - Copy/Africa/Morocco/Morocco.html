@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TakeMeThere</title>
+    <link rel="stylesheet" href="Morocco.css"/>
+   <!--  <script>var counter=1;
+      setInterval(function () {document.getElementById('r'+counter).checked = true;
+      counter++;
+      if(counter>6){
+        counter=1;
+      }
+      },6000);</script> --> 
+  </head>
+  <body>
+  <header>
+    <div class="up">
+      <img src="Web Logo.png" id="logo" >
+     
+      <nav>
+        <table cellspacing=10 class="table1" cellpadding=4>
+          <tr>
+            <th class="cell1"><span id="h1">Your Next Destination Is One Click Away!</span></th>
+            <th class="cell2"><ul id="UL1">
+            <li class="LI1"><a class="A1" href="../../LoginSignup/login.html">Login</a></li>
+              <li class="LI1"><a class="A1" href="../../LoginSignup/signup.html">SignUp</a></li>
+          </ul></th>
+        </tr>  
+      </nav>
+    </div>
+    <table class="table 2">
+      <ul id="UL2">
+        <li class="LI2"><a class="A2" href="../../HomePage/project.html" >Home</a></li>
+        <div class="dropdown">
+          <button class="dropbtn"><b>Asia</b></button>
+          <div class="dropdown-content">
+           <a href=" ../../Asia/India/India.html">India</a>
+            <a href=" ../../Asia/Malaysia/malaysia.html">Malaysia</a>
+            <a href=" ../../Asia/Philipines/philipines.html">Philipines</a>
+            <a href=" ../../Asia/Turkey/turkey.html">Turkey</a>
+            <a href=" ../../Asia/UAE/UAE.html">UAE</a>
+            <a href=" ../../Asia/Mongolia/Mongolia.html">Mongolia</a>
+            <a href=" ../../Asia/Russia/Russia.html">Russia</a>
+            </div>
+            </div>
+        <div class="dropdown">
+          <button class="dropbtn"><b>Europe</b></button>
+          <div class="dropdown-content">
+          <a href=" ../../Europe/France/france.html">France</a>
+            <a href=" ../../Europe/Germany/germany.html">Germany</a>
+            <a href=" ../../Europe/Greece/greece.html">Greece</a>
+            <a href=" ../../Europe/Italy/italy.html">Italy</a>
+            <a href=" ../../Europe/Spain/spain.html">Spain</a>
+            <a href=" ../../Europe/Norway/norway.html">Norway</a>
+            <a href=" ../../Europe/Sweden/sweden.html">Sweden</a>
+            <a href=" ../../Europe/Switzerland/Switzerland.html">Switzerland</a>
+
+            </div>
+            </div>
+        <div class="dropdown">
+          <button class="dropbtn" ><b>Africa</b></button>
+          <div class="dropdown-content">
+            <a href=" ../../Africa/Egypt/Egypt.html">Egypt</a>
+            <a href=" ../../Africa/Ethiopia/Ethiopia.html">Ethiopia</a>
+            <a href=" ../../Africa/Madagascar/Madagascar.html">Madagascar</a>
+            <a href=" ../../Africa/Morocco/Morocco.html">Morocco</a>
+            <a href=" ../../Africa/South Africa/South Africa.html">South Africa</a>
+            </div>
+            </div>
+            
+        <div class="dropdown">
+          <button class="dropbtn"><b>America</b></button>
+            <div class="dropdown-content">
+              <a href=" ../../America/USA/USA.html" >USA</a>
+              <a href=" ../../America/Costa Rica/Costa Rica.html">Costa Rica</a>
+              <a href=" ../../America/Nicaragua/Nicaragua.html">Nicaragua</a>
+              <a href=" ../../America/Panama/panama.html">Panama</a>
+              <a href=" ../../America/Guatemala/Guatemala.html">Guatemala</a>
+              <a href=" ../../America/Columbia/colombia.html">Columbia</a>
+              <a href=" ../../America/Brazil/brazil.html">Brazil</a>
+              </div>
+              </div>
+        <li id="search"><label for=""> <input type="text" id="searchbar" placeholder="Search.." size="32" height="4"></label></li>
+        <li > <img src="air.png" class="air" alt="" ></li>
+      </ul> 
+    </table>
+    </div>
+  </header><div id="all">
+  <h1 style="color:rgb(18, 126, 168) ;font-size: 40px; ;">Morocco
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg" class="logo" ></h1><br><br>
+  <h2 style="color:rgb(18, 126, 168);">General Information :</h2>
+  <p class="intro">
+    Morocco is located in the northwest corner of Africa and is bordered by the North Atlantic Ocean and the Mediterranean Sea. Algeria and Western Sahara are the land borders to the south and east. Morocco is about the same size as California. The high Atlas Mountains separate the mild coastline from the harsh Sahara.
+  </p> 
+  <img src="https://thumbs.dreamstime.com/b/nice-map-illustration-geographic-place-your-needs-ivanovsk-russia-january-morocco-world-138086946.jpg" style="margin-top: -250px; height:250px;width: 500px;margin-left: 800px;"><hr>
+  <h2 style="color:rgb(18, 126, 168); text-align: center; font-size: 40px; text-decoration: underline; line-height: 20px;" > Photos Of Morocco </h2>
+    
+
+        <div class="display-container">
+        <img class="mySlides" src="https://www.woimacorporation.com/wp-content/uploads/2019/01/Landscape-of-Morocco-Drowning-in-Waste-WOIMA-Corporation.jpg" style="width:100%">
+        <img class="mySlides" src="https://lp-cms-production.imgix.net/2019-06/91532ae17b861be1160a56ab54f28ed4-morocco.jpg" style="width:100%">
+        <img class="mySlides" src="https://wstravely.com/wp-content/uploads/2020/07/65521134_341176333448572_6515183552200395534_n-min.jpg" style="width:100%">
+        <img class="mySlides" src="https://sempressadevoltar.com/wp-content/uploads/2019/07/Mesa-montada.jpg" style="width:100%">
+      
+        
+      </div>
+      <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="display-right" onclick="plusDivs(1)">&#10095;</button>
+        <hr>
+        <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+          
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+          
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+          }
+          var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 3000); 
+    }
+          </script>
+      
+      
+          </div>
+        
+      
+     
+</div>
+<div class="CountFeatures">
+<h2>More About Morocco</h2>
+<ul>
+  <li><span style="color: rgb(26, 125, 165);">Temperature and Climate:</span> Most of Morocco north of the Western Sahara, particularly along the coasts, experiences a typical Mediterranean climate, The interior of the country experiences seasonal temperature variations, with average temperatures of 25-30°C in the summer and less than 15°C in the winter. Temperatures in the coastal regions range between 22-25°C in the summer (July-September) and 10-12°C in the winter (January-March)..</li>
+<li><span style="color: rgb(26, 125, 165);">Food:</span> Morocco produces Mediterranean vegetables and fruits, they are used in the preparation of different Moroccan recipes. Poultry, cattle and fish is also in abundance in Morocco and hence they have become an integral part of the country's cuisine! Famous traditional Moroccan food includes: Couscous, Moroccan Chicken Bastilla, Tagine, Chicken With Preserved Lemon and Olives, Harira and many more</li>
+<li><span style="color: rgb(26, 125, 165);">Average Amount Of Money Needed:</span> 44$/Day on average</li>
+<li><span style="color: rgb(26, 125, 165);">Top Rated Tourist Attractions: </span>Casablanca, Marrakech, Dades Valley, High Atlas  </li>
+</ul>
+
+</div>
+<hr style="width:1px;height: 350px; margin-top: -370px;">
+<div id="vid">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MEWLMvvVAPg?autoplay=1&mute=1"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; loop;" allowfullscreen style="float: right; margin-top: -320px; border-radius: 10px;"></iframe>
+</div>
+<br>
+<hr>
+<div id="form" style="margin-bottom: 40px;">
+  <form action="">
+  <h2 style="text-align: center;">Already Been To This Country? <br>Share Your Reviews And Pictures!</h2>
+  
+<hr>
+<h3 style="text-align: center; color: rgb(18, 126, 168); font-weight: bold;"> Describe Your Trip:</h3>
+<textarea name="" id="" cols="70" rows="10" style="border: 1px solid rgb(18, 126, 168); border-radius: 10px;margin-left: 300px;"></textarea>
+<h3 for="" color: rgb(18, 126, 168); font-weight: bold; style=" text-align: center; color: rgb(18, 126, 168);">Upload Your Images:</h3> <br>
+<div style="margin-left: 400px; margin-top: -30px; margin-bottom: 20px;">
+<input type="file" style="margin-top: -260px;">
+</div>
+<div style="margin-left: 500px;">
+<input type="submit" id="submit" style="background-color:rgb(18, 126, 168); color: white;border: none; padding-left: 20px;padding-right: 20px; border-radius: 10px; padding: 10px; font-size: 14px;">
+</div >
+
+</form>
+</div>
+<div>
+  <form action="">
+    
+  </form>
+</div>
+<footer>
+   <ul class="UL3">
+        <li class="f"><a class="A2" href="../../About Us/about us.html"><b>About us</a></b></li>
+        <li class="f"><a class="A2" href="../../Contact Us/contact us.html"><b>Contact us</b></a></li>
+        <li class="f"><a class="A2" href="../../Review/review.html"><b>Review</a></b></li>
+        <li class="f"><b>2021 &copy;</b></li>
+
+  </ul>
+</footer>
+
+</body>
+</html>

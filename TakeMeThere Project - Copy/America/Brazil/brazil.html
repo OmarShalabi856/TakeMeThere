@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TakeMeThere</title>
+    <link rel="stylesheet" href="brazil.css"/>
+  </head>
+  <body>
+  <header>
+    <div class="up">
+      <img src="Web Logo.png" id="logo" >
+
+      <nav>
+        <table cellspacing=10 class="table1" cellpadding=4>
+          <tr>
+            <th class="cell1"><span id="h1">Your Next Destination Is One Click Away!</span></th>
+            <th class="cell2"><ul id="UL1">
+            <li class="LI1"><a class="A1" href="../../LoginSignup/login.html">Login</a></li>
+              <li class="LI1"><a class="A1" href="../../LoginSignup/signup.html">SignUp</a></li>
+          </ul></th>
+        </tr>
+      </nav>
+    </div>
+    <table class="table 2">
+      <ul id="UL2">
+        <li class="LI2"><a class="A2" href="../../HomePage/project.html" >Home</a></li>
+        <div class="dropdown">
+          <button class="dropbtn"><b>Asia</b></button>
+          <div class="dropdown-content">
+           <a href=" ../../Asia/India/India.html">India</a>
+            <a href=" ../../Asia/Malaysia/malaysia.html">Malaysia</a>
+            <a href=" ../../Asia/Philipines/philipines.html">Philipines</a>
+            <a href=" ../../Asia/Turkey/turkey.html">Turkey</a>
+            <a href=" ../../Asia/UAE/UAE.html">UAE</a>
+            <a href=" ../../Asia/Mongolia/Mongolia.html">Mongolia</a>
+            <a href=" ../../Asia/Russia/Russia.html">Russia</a>
+            </div>
+            </div>
+        <div class="dropdown">
+          <button class="dropbtn"><b>Europe</b></button>
+          <div class="dropdown-content">
+          <a href=" ../../Europe/France/france.html">France</a>
+            <a href=" ../../Europe/Germany/germany.html">Germany</a>
+            <a href=" ../../Europe/Greece/greece.html">Greece</a>
+            <a href=" ../../Europe/Italy/italy.html">Italy</a>
+            <a href=" ../../Europe/Spain/spain.html">Spain</a>
+            <a href=" ../../Europe/Norway/norway.html">Norway</a>
+            <a href=" ../../Europe/Sweden/sweden.html">Sweden</a>
+            <a href=" ../../Europe/Switzerland/Switzerland.html">Switzerland</a>
+
+            </div>
+            </div>
+        <div class="dropdown">
+          <button class="dropbtn"><b>Africa</b></button>
+          <div class="dropdown-content">
+            <a href=" ../../Africa/Egypt/Egypt.html">Egypt</a>
+            <a href=" ../../Africa/Ethiopia/Ethiopia.html">Ethiopia</a>
+            <a href=" ../../Africa/Madagascar/Madagascar.html">Madagascar</a>
+            <a href=" ../../Africa/Morocco/Morocco.html">Morocco</a>
+            <a href=" ../../Africa/South Africa/South Africa.html">South Africa</a>
+            </div>
+            </div>
+            
+        <div class="dropdown">
+          <button class="dropbtn" ><b>America</b></button>
+            <div class="dropdown-content">
+              <a href=" ../../America/USA/USA.html" >USA</a>
+              <a href=" ../../America/Costa Rica/Costa Rica.html">Costa Rica</a>
+              <a href=" ../../America/Nicaragua/Nicaragua.html">Nicaragua</a>
+              <a href=" ../../America/Panama/panama.html">Panama</a>
+              <a href=" ../../America/Guatemala/Guatemala.html">Guatemala</a>
+              <a href=" ../../America/Columbia/colombia.html">Columbia</a>
+              <a href=" ../../America/Brazil/brazil.html">Brazil</a>
+              </div>
+              </div>
+        <li id="search"><label for=""> <input type="text" id="searchbar" placeholder="Search.." size="32" height="4"></label></li>
+        <li > <img src="air.png" class="air" alt="" ></li>
+      </ul>
+    </table>
+    </div>
+  </header><div id="all">
+  <h1 style="color:rgb(18, 126, 168) ;font-size: 40px; ;">BRAZIL
+  <img src="brazilflag.png" class="logo" ></h1><br><br>
+  <h2 style="color:rgb(18, 126, 168);">General Information :</h2>
+  <p class="intro">
+ Brazil, officially Federative Republic of Brazil, Portuguese República Federativa do Brasil,
+ country of South America that occupies half the continent’s landmass.
+ It is the fifth largest country in the world.
+  </p>
+  <img src="brazpin.jfif" style="margin-top: -250px; height:250px;width: 500px;margin-left: 800px;"><hr>
+  <h2 style="color:rgb(18, 126, 168); text-align: center; font-size: 40px; text-decoration: underline; line-height: 20px;" > Photos Of Brazil </h2>
+
+
+        <div class="display-container">
+        <img class="mySlides" src="https://img.theculturetrip.com/x/smart/wp-content/uploads/2019/04/shutterstock_421013719.jpg" style="width:100%">
+        <img class="mySlides" src="https://www.aljazeera.com/wp-content/uploads/2020/03/76736bc88ef74946a8808ab608558dd6_18.jpeg?resize=770%2C513" style="width:100%">
+        <img class="mySlides" src="https://www.state.gov/wp-content/uploads/2019/04/Brazil-e1556021926381-2500x1406.jpg" style="width:100%">
+        <img class="mySlides" src="https://www.planetware.com/photos-large/BRA/brazil-salvador-pelourinho-3.jpg" style="width:100%">
+
+
+      </div>
+      <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="display-right" onclick="plusDivs(1)">&#10095;</button>
+        <hr>
+        <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+          
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+          
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+          }
+          var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 3000); 
+    }
+          </script>
+          </div>
+</div>
+<div class="CountFeatures">
+<h2>More About Brazil</h2>
+<ul>
+  <li><span style="color: rgb(26, 125, 165);">Temperature and Climate:</span>  The tropical and subtropical climate makes Brazil an all-year round destination. The Brazilian winter lasts for only three months from June to August. From December to February it's summer and most rain is seen in these months.</li>
+<li><span style="color: rgb(26, 125, 165);">Food:</span> Don't leave Brazil without trying Barbecued meat,Moqueca,Pão de queijo,Brigadeiros and more...</li>
+<li><span style="color: rgb(26, 125, 165);">Average Amount Of Money Needed:</span> 52$/Day on average</li>
+<li><span style="color: rgb(26, 125, 165);">Top Rated Tourist Attractions: </span>Cristo Redentor and Corcovado,Sugar Loaf, Iguaçu Falls,Copacabana.. </li>
+</ul>
+
+</div>
+<hr style="width:1px;height: 350px; margin-top: -350px;">
+<div id="vid">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G5OSOq5-Wmc"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; loop;" allowfullscreen style="float: right; margin-top: -320px; border-radius: 10px;"></iframe>
+</div>
+<br>
+<hr>
+<div id="form" style="margin-bottom: 40px;">
+  <form action="">
+  <h2 style="text-align: center;">Already Been To This Country? <br>Share Your Reviews And Pictures!</h2>
+
+<hr>
+<h3 style="text-align: center; color: rgb(18, 126, 168); font-weight: bold;"> Describe Your Trip:</h3>
+<textarea name="" id="" cols="70" rows="10" style="border: 1px solid rgb(18, 126, 168); border-radius: 10px;margin-left: 300px;"></textarea>
+<h3 for="" color: rgb(18, 126, 168); font-weight: bold; style=" text-align: center; color: rgb(18, 126, 168);">Upload Your Images:</h3> <br>
+<div style="margin-left: 400px; margin-top: -30px; margin-bottom: 20px;">
+<input type="file" style="margin-top: -260px;">
+</div>
+<div style="margin-left: 500px;">
+<input type="submit" id="submit" style="background-color:rgb(18, 126, 168); color: white;border: none; padding-left: 20px;padding-right: 20px; border-radius: 10px; padding: 10px; font-size: 14px;">
+</div >
+
+</form>
+</div>
+<div>
+  <form action="">
+
+  </form>
+</div>
+<footer>
+   <ul class="UL3">
+        <li class="f"><a class="A2" href="../../About Us/about us.html"><b>About us</a></b></li>
+        <li class="f"><a class="A2" href="../../Contact Us/contact us.html"><b>Contact us</b></a></li>
+        <li class="f"><a class="A2" href="../../Review/review.html"><b>Review</a></b></li>
+        <li class="f"><b>2021 &copy;</b></li>
+
+  </ul>
+</footer>
+
+</body>
+</html>
